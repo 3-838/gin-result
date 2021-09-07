@@ -45,3 +45,18 @@ git push -u origin main
 
 ## …or import code from another repository
 > You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+# 更换Git地址
+```shell
+# 查看
+git remote -v
+
+# 移除
+git remote rm origin
+
+#加入
+git remote add origin [地址]
+
+# 最后查看是否更正
+git remote -v
+```
