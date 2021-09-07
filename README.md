@@ -59,4 +59,7 @@ git remote add origin [地址]
 
 # 最后查看是否更正
 git remote -v
+
+# 强制覆盖本地
+git fetch --all &&  git reset --hard origin/master && git pull
 ```
